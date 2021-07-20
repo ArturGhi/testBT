@@ -64,7 +64,7 @@ namespace testBT
                 conn.Close();
                 MessageBox.Show(" Cod Generat ");
 
-                
+                /*
                 // structura pentru trimiterea automata a codului generat pe email, pe moment este configurat sa trimita doar spre mailul personal.
                 try
                 {
@@ -77,7 +77,7 @@ namespace testBT
                     mail.Body = "<b>Buna ziua!</b> <p>Codul OTP este: " + cod + "</p><b>O zi buna!</b>";
                     mail.IsBodyHtml = true;
                     SmtpServer.Port = 25;
-                    SmtpServer.Credentials = new System.Net.NetworkCredential("artur.ghidora@eurial.com.ro", "Fh%TB^9'n?Nv$}_c");
+                    SmtpServer.Credentials = new System.Net.NetworkCredential("artur.ghidora@eurial.com.ro", "parolastearsa");
                     SmtpServer.EnableSsl = true;
                     SmtpServer.Send(mail);
                 }
@@ -101,7 +101,7 @@ namespace testBT
                     MessageBox.Show("Eroare sms");
                     //ex.Message,"eroare",MessageBoxButton.OK
                 }
-                
+                */
             }
         }
 
